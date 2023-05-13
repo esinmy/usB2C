@@ -11,7 +11,7 @@ const msalConfig = {
       clientId: "fc5f9575-1b73-4fae-bc88-81b1ea1b5faa", // This is the ONLY mandatory field; everything else is optional.
       authority: b2cPolicies.authorities.signUpSignIn.authority, // Choose sign-up/sign-in user-flow as your default.
       knownAuthorities: [b2cPolicies.authorityDomain], // You must identify your tenant's domain as a known authority.
-      redirectUri: "http://localhost:9999", // You must register this URI on Azure Portal/App Registration. Defaults to "window.location.href".
+      redirectUri: "https://esinmy.github.io/B2Cus/App/", // You must register this URI on Azure Portal/App Registration. Defaults to "window.location.href".
     },
     cache: {
       cacheLocation: "sessionStorage", // Configures cache location. "sessionStorage" is more secure, but "localStorage" gives you SSO between tabs.
